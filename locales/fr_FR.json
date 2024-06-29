@@ -1,0 +1,13 @@
+{
+    "popup": {
+      "searchPlaceholder": "Rechercher...",
+      "searchBtn": "Chercher"
+    },
+    "history": {
+      "pageTitle": "Historique"
+    },
+    "settings": {
+      "pageTitle": "Paramètres"
+    }
+  }
+  

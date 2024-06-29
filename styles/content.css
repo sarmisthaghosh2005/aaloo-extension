@@ -1,0 +1,30 @@
+
+body, html {
+    margin: 20;
+    padding: 20;
+  }
+  
+  
+  .aaloo-element {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aaloo-element h1 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .aaloo-element p {
+    margin-bottom: 8px;
+  }
+  
+  
+  

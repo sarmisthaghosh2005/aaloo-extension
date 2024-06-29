@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "AALOO",
+    "description": "Verify the credibility of news articles, images, and geolocation.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "geolocation",
+      "tabs",
+      "contextMenus",
+      "notifications",
+      "https://*/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["styles/content.css"]
+      }
+    ],
+    "icons": {
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/icon128.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["styles/themes/light.css", "styles/themes/dark.css"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y"
+        }
+      }
+    }
+  }
+  
